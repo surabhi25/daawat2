@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>My Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+--><link rel="stylesheet" href="themes/Daawat.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+<div  id="categories" data-role="page" data-theme="a">
+<!--<div data-role="header" data-theme="a">
+<h1>Daawat</h1>
+</div>--><!-- /header -->
+<div data-role="content" style="height:350px;">
+<a href="#popupMenu" data-role="button"  data-rel="popup"  data-transition="slideup" data-icon="gear" data-theme="a" style="width:130px;height:40px;float:right;">Features</a>
+
+<div data-role="popup" id="popupMenu" data-theme="b" style="float:right;">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="a">
+            <li data-role="divider" data-theme="b">Choose an option</li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#login">SignIn</a></li>
+		</ul>
+</div>
+<h3 style="font-style:italic;" data-position="inline" >Welcome To Daawat</h3>
+
+
+
+
+<hr/>
+
+<div style="width:200px;float:left;">
+ <ul data-role="listview" data-inset="true">
+                  <li><a href="#veg" data-icon="star" >Vegetarian</a></li>
+                  <li><a href="#nonveg"  data-icon="star">Non-Vegetarian</a></li>
+                  
+            </ul>
+			 
+			<a href="#popupBasic"  data-rel="popup" data-role="button" data-icon="refresh" style="width:200px;margin-top:80px;">ORDER ONLINE</a>
+			
+<div data-role="popup" id="popupBasic">
+    <p>Just Register Yourself</p>
+</div> 
+</div>
+<div style="width:180px;float:left;padding-left:10px;">
+<img src="images/restaurent.jpg" width="180" height="230" style="border-radius:5px 5px 5px 5px;"/>
+</div>
+
+
+
+<!-- /content -->
+
+<!--<div style="float:left;width:500px;height:200px;">
+<p>To sell delicious and remarkable food and drinks. That the food and drink we sell meets the highest standards of quality, freshness and seasonality and combines both modern-creative and traditional southern styles of cooking. To consistently provide our customers with impeccable service by demonstrating warmth, graciousness, efficiency, knowledge, professionalism and integrity in our work. To have every customer who comes through our doors leave impressed by Maxie's and excited to come back again. To create and maintain a restaurant that is comprehensive and exceptional in its attention to every detail of operation. <!--To provide all who work with us a friendly, cooperative and rewarding environment which encourages long- term, satisfying, growth employment. To keep our concept fresh, exciting and on the cutting edge of the hospitality and entertainment industry. 
+</p>
+</div>-->
+
+</div>
+
+<!-- /content -->
+<div data-role="footer" style="padding:15px;">
+<span>EmailId:daawat@gmail.com</span><br/>
+<span>Contact Us:987654321,0731-2456783</span>
+</div><!-- /footer -->
+</div><!-- /page -->
+
+<div id="login"  data-role="page"  data-theme="a">
+
+      <div data-role="header" style="padding:10px;">
+	   <span>Enter Your Login Details</span>
+      </div><!-- /header -->
+  
+      <div data-role="content" style="height:350px;">
+           <form>
+    		 <label for="email-1">Email:</label>
+    		<input data-clear-btn="true" name="email-1" id="email-1" value="" type="email">
+			<label for="text-3">Password:</label>
+     		<input data-clear-btn="true" name="passw" id="passw" value="" type="password">
+			 <input value="Submit" type="submit" data-mini="true" data-inline="true" data-icon="arrow-r" >&nbsp;&nbsp;
+			 <a href="#" data-role="button" data-mini="true" data-inline="true" >Cancel</a>
+		</form>
+      </div>
+	  
+	  <div data-role="footer" style="padding:15px;">
+		<span>EmailId:daawat@gmail.com</span><br/>
+		<span>Contact Us:987654321,0731-2456783</span>
+		</div>
+</div>	
+<div id="register"  data-role="page"  data-theme="a">
+
+      <div data-role="header" style="padding:10px;">
+	   <span>Enter Your Personal Details</span>
+      </div><!-- /header -->
+  
+      <div data-role="content" style="height:350px;">
+           <form>
+		  
+    		 <label for="email-1">Email:</label>
+    		<input data-clear-btn="true" name="email-1" id="email-1" value="" type="email">
+			<label for="text-3">Password:</label>
+     		<input data-clear-btn="true" name="passw" id="passw" value="" type="password">
+			
+			 <label for="text-3">Address:</label>
+     		<input data-clear-btn="true" name="address" id="address" value="" type="text">
+			 <label for="text-3">Contact No:</label>
+     		<input data-clear-btn="true" name="mobile" id="mobile" value="" type="number">
+			 <input value="Submit" type="submit" data-mini="true" data-inline="true" data-icon="arrow-r" >&nbsp;&nbsp;
+			 <a href="#" data-role="button" data-mini="true" data-inline="true" >Cancel</a>
+		</form>
+      </div>
+	  
+	  <div data-role="footer" style="padding:15px;">
+		<span>EmailId:daawat@gmail.com</span><br/>
+		<span>Contact Us:987654321,0731-2456783</span>
+		</div>
+</div>
+<div id="veg"  data-role="page"  data-theme="a">
+		
+      <div data-role="header" style="padding:10px;">
+	  
+	   <h1>Vegetarian</h1>
+	   
+	<a href="#mypanel" data-theme="d" data-icon="arrow-r" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+   <!-- <a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open right panel</a>-->
+      </div><!-- /header -->
+  
+  <div data-role="content" style="height:350px;">
+	 
+       
+	<a href="#popupNested" data-rel="popup" data-role="button" data-inline="true" data-icon="bars" data-theme="a" data-transition="pop" style="margin-top:70px;">Choose a Category</a><br/><br/>
+	<div style="margin-top:50px;">
+	<img src="images/vegmain.jpg" width="100" height="80">
+	<img src="images/vegmain1.jpeg" width="100" height="80">
+	<img src="images/vegmain2.jpg" width="100" height="80">
+	<img src="images/vegmain3.jpeg" width="100" height="80"><br/>
+	<img src="images/vegmain4.jpeg" width="100" height="80">
+	<img src="images/vegmain5.jpeg" width="100" height="80">
+	<img src="images/vegmain6.jpeg" width="100" height="80">
+	<img src="images/vegmain7.jpeg" width="100" height="80">
+	</div>
+<div data-role="popup" id="popupNested" data-theme="a">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+            <h2>Rajasthani</h2>
+            <ul data-role="listview">
+                <li><a href="#malpua" data-rel="dialog">Chenna Malpua </a></li>
+                <li><a href="#" data-rel="dialog">Churma</a></li>
+                <li><a href="#" data-rel="dialog">Gatte ka Pulao</a></li>
+                <li><a href="#" data-rel="dialog">Khasta Kachori</a></li>
+            </ul>
+        </div>
+    </div>
+	
+	<div data-role="collapsible-set" data-theme="a" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+            <h2>Gujarati</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Bhaat Na Poodla</a></li>
+                <li><a href="#" data-rel="dialog">Bhatia Kadhi </a></li>
+                <li><a href="#" data-rel="dialog">Bhinda Ni Kadhi </a></li>
+                <li><a href="#" data-rel="dialog">Doodhi Theplas</a></li>
+            </ul>
+        </div>
+    </div>
+	
+	<div data-role="collapsible-set" data-theme="a" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+            <h2>Punjabi</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Chole </a></li>
+                <li><a href="#" data-rel="dialog">Rajama</a></li>
+                
+            </ul>
+        </div>
+    </div>
+	
+	<div data-role="collapsible-set" data-theme="a" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+        <div data-role="collapsible" data-inset="false">
+            <h2>South Indian Dishes</h2>
+            <ul data-role="listview">
+                <li><a href="#" data-rel="dialog">Appam </a></li>
+                <li><a href="#" data-rel="dialog">Bhindi Dahi </a></li>
+                <li><a href="#" data-rel="dialog">Buckwheat Dosa</a></li>
+                <li><a href="#" data-rel="dialog">Chana Ghassi</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+	
+  
+   
+        
+    <!-- /content -->
+    </div>
+	  
+	 
+		
+		<div data-role="panel" id="mypanel" >
+		
+				  <div data-role="content" data-theme="d">
+				 <h3>Vegetarian Food</h3>
+				  <p>"There are millions of vegetarians in the world. We should be vegetarians because our religion preaches nonviolence. However, apart from religious considerations, a vegetarian diet is healthier, more economical"</p>
+				  </div>
+				  
+		</div>
+		
+		
+</div>
+
+<div  data-role="page" id="nonveg" data-theme="a">
+    <div data-role="header" >
+        <h1>Non-Vegetarian</h1>
+      <a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+    <a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open right panel</a>
+    </div><!-- /header -->
+    <div data-role="content">
+	<div style="width:100%;float:left;">
+	<span style="margin-right:120px;float:left;font-weight:bold;">Indian Non-vegetarian Dishes</span><span style="float:left;">Price/-</span>
+	</div>
+	<div style="width:100%;float:left;">
+	<div style="width:348px;float:left;">
+	<ul>
+	<li><span>Baked crab legs with corn fried rice</span></li>
+	<li><span>Bekti Chinese Roast</span></li>
+	<li><span>Sunshine Cake</span></li>
+	<li><span>Stuffed Capsicums</span></li>
+	<li><span>Microwave Rissoto</span></li>
+	<li><span>Stroganoff</span></li>
+	<li><span>Hyderabadi Keema</span></li>
+	<li><span>Sweet and Sour Microwave Meatballs</span></li>
+	<li><span>Chicken in Spicy yogurt</span></li>
+	<li><span>Egg-Potato Scramble</span></li>
+	<li><span>Chicken Tacos</span></li>
+	</ul>
+      </div>
+	  <div style="width:50px;float:left;">
+	  <br/>
+	<span>200/-</span><br/>
+	<span>200/-</span><br/>
+	<span>250/-</span><br/>
+	<span>200/-</span><br/>
+	<span>300/-</span><br/>
+	<span>170/-</span><br/>
+	<span>280/-</span><br/>
+	<span>240/-</span><br/>
+	<span>220/-</span><br/>
+	<span>100/-</span><br/>
+	<span>140/-</span>
+	</div>
+	  </div> 
+	
+<a href="#positionSelector" data-role="button" data-inline="false" data-rel="popup" data-position-to="#position-header" style="float:left;">Home Delivery</a>
+<div data-role="popup" id="positionSelector" class="ui-content" data-theme="a" style="float:left;">
+    <p>Home Delivery upto 15km is free.Above 15 Km it will be Chargable. 
+	<a href="#nonveg">Back</a></p>
+</div>        
+    </div><!-- /content -->
+    <div data-role="panel" id="left-panel" data-theme="b">
+	<h3> Non-Vegetarian Food</h3>
+   <p> Non-vegetarian foods are rich in protein of high biological value and in Vit B complex, especially B12 which is not available in plant foods.
+    Fish, especially the small varieties are a rich source of calcium.Egg-white is good source of protein and easily digested.
+The incidence of high BP, Heart disease, Obesity and high cholesterol levels is found to be greater among non-vegetarians. Elders who suffer from these problems should reduce the intake of fleshy foods in their diet.</p>
+    </div><!-- /panel -->
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+	<div  data-role="header"><h3>Favorite</h3></div>
+	<div data-role="content">
+      <ul data-role="listview" data-theme="c">
+	  <li><img src="images/nonveg1.jpeg" width="80" height="80" style="margin-left:5px;"><span>Tikka Kababs</span></li>
+	  <li><img src="images/nonveg2.jpeg" width="80" height="80" style="margin-left:5px;"><span>Kima Mutter</span></li>
+	  <li><img src="images/nonveg3.jpeg" width="80" height="80" style="margin-left:5px;"><span>Chicken Curry</span></li>
+	  <li><img src="images/nonveg4.jpeg" width="80" height="80" style="margin-left:5px;"><span>Egg Curry</span></li>
+	  <li><img src="images/nonveg5.jpeg" width="80" height="120" style="margin-left:5px;"><span>Fish Fried Rice</span></li>
+	  </ul>
+	  </div>
+    </div><!-- /panel -->
+</div>
+</body>
+</html>
